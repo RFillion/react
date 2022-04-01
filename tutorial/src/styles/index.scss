@@ -1,0 +1,15 @@
+@use 'NavBar';
+@use 'Main';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+    font-family: 'montserrat', sans-serif;
+    background-color: #282D35;
+    overflow-x: hidden;
+}
+

@@ -1,0 +1,30 @@
+.container {
+    color: white;
+    margin: 4rem;
+    .main--title {
+        font-size: 3rem;
+        font-weight: 700;
+        letter-spacing: -0.05rem;
+    }
+    .list {
+        margin: 2rem;
+        max-width: 400px;
+        &--items {
+            margin: 1.5rem 0;
+            font-weight: 500;
+            &::marker {
+                color: #61DAFB;
+                font-size: 1.4rem;
+            }
+        }
+    }
+    .backgroundLogo {
+        position: absolute;
+        right: -200px;
+        top: 50%;
+        transform: translateY(-35%);
+        width: 400px;
+        filter: grayscale(100%);
+        opacity: 0.05;
+    }
+}

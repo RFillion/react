@@ -1,0 +1,35 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    background-color: #21222A;
+    padding: 30px 25px;
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            &__img {
+                width: 50px;
+            }
+            &__text {
+                margin-left: 10px;
+                color: #61DAFB;
+                font-weight: 600;
+                font-size: 1.75rem;
+            }
+        }
+    }
+    &__description {
+        .description {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}
