@@ -1,0 +1,32 @@
+@use 'Info';
+@use 'About';
+@use 'Interests';
+@use 'Footer';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100vh;
+  background-color: #0f0f0f;
+  font-family: 'montserrat', sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .Card {
+    width: 300px;
+    position: relative;
+    background-color: #0a0a0a;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+}

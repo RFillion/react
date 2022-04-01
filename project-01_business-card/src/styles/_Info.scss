@@ -1,0 +1,53 @@
+.Information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &--image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    &--title {
+        color: white;
+        .Name { margin: 1.5rem 0 2px 0; }
+        .Title {
+            font-size: 0.9rem;
+           font-style: italic;
+           color: #285aff;
+           font-weight: 500;
+        }
+        .Website {
+            margin: 0.8rem 0;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+    }
+    &--btns {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        .Email, .LinkedIn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 110px; 
+            height: 2rem; 
+            margin: 0.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            border: 0;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+         .Email {
+            color: #0a0a0a;
+            background-color: white;
+        }
+        .LinkedIn { 
+            color: white;
+            background-color: #285aff;
+        }
+    }
+}
